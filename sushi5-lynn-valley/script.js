@@ -11,7 +11,7 @@
 
   /* ---------- THE MENU (real data, real prices) ---------- */
   var MENU = [
-    { name: "Nigiri Sushi", img: "./img2/macro-salmon.jpg",
+    { name: "Nigiri Sushi", img: "./img2/r-nigiri.jpg",
       note: "Per piece.",
       items: [
         ["Tamago (Egg Omelette)","$1.50"],["Hokkigai (Surf Clam)","$1.50"],
@@ -25,13 +25,13 @@
         ["Spot Prawn","$2.50"],["Chopped Scallop & Tobiko","$2.50"],
         ["Tobiko & Quail Egg","$2.95"],["Ikura (Salmon Roe)","$2.95"]
       ] },
-    { name: "Aburi (Seared)", img: "./img2/hero-aburi.jpg",
+    { name: "Aburi (Seared)", img: "./img2/r-aburi.jpg",
       note: "Lightly torched. Per piece.",
       items: [
         ["Seared Tuna","$2.25"],["Seared Wild Salmon","$2.50"],
         ["Seared Toro","$2.75"],["Seared Hamachi","$3.50"]
       ] },
-    { name: "Sashimi", img: "./img2/chopstick.jpg",
+    { name: "Sashimi", img: "./img2/r-sashimi.jpg",
       note: "Sliced fresh, no rice.",
       items: [
         ["Tuna Sashimi (4 pcs)","$6.95"],["Tuna Sashimi (7 pcs)","$10.95"],
@@ -43,7 +43,7 @@
         ["Tuna & Wild Salmon Sashimi (4 pcs each)","$12.95"],
         ["Half Assorted Sashimi (8 pcs)","$11.95"],["Assorted Sashimi (12 pcs)","$16.95"]
       ] },
-    { name: "Maki & Rolls", img: "./img2/macro-salmon.jpg",
+    { name: "Maki & Rolls", img: "./img2/r-california.jpg",
       note: "",
       items: [
         ["Avocado Roll","$2.95"],["Cucumber Roll","$2.95"],["Tuna Roll","$2.95"],
@@ -57,7 +57,7 @@
         ["AAC Roll","$5.95"],["B.C. Roll","$5.95","BBQ wild salmon skin & vegetable"],
         ["Alaska Roll","$6.95"],["Real Crab California Roll","$6.95"],["Futo Maki Roll","$6.95"]
       ] },
-    { name: "Signature Rolls", img: "./img2/lion-king.jpg",
+    { name: "Signature Rolls", img: "./img2/r-signature.jpg",
       note: "The counter's specialty rolls.",
       items: [
         ["Lion King Roll","$15.95","Prawn tempura, crab, avocado & cucumber, topped with seared wild salmon, Parmesan, crunch potato & tobiko"],
@@ -68,14 +68,14 @@
         ["California Salsa Roll","$8.95"],["Victoria Roll","$7.95"],
         ["New York New York Roll","$18.95"],["Crispy White Mountain Roll","$19.95"]
       ] },
-    { name: "Oshi (Pressed)", img: "./img2/board.jpg",
+    { name: "Oshi (Pressed)", img: "./img2/r-oshi.jpg",
       note: "Pressed sushi, 6 pieces.",
       items: [
         ["Oshisushi Spicy Tuna (6 pcs)","$10.95"],
         ["Oshisushi Wild Salmon (6 pcs)","$10.95"],
         ["Oshisushi Negi Toro (6 pcs)","$10.95"]
       ] },
-    { name: "Appetizers", img: "./img2/soy-detail.jpg",
+    { name: "Appetizers", img: "./img2/r-gyoza.jpg",
       note: "",
       items: [
         ["Vegetable Sunomono","$3.95"],["Shrimp / Octopus Sunomono","$4.25"],
@@ -87,33 +87,33 @@
         ["Tuna Tataki","$10.95"],["Agedashi Tofu","$4.95","Deep fried tofu with dashi-based sauce"],
         ["Spicy Agedashi Tofu","$5.50"],["Ebi Mayo","$7.95"]
       ] },
-    { name: "Tempura", img: "./img2/soy-detail.jpg",
+    { name: "Tempura", img: "./img2/r-tempura.jpg",
       note: "",
       items: [
         ["Tempura Appetizer","$6.95","3 pcs prawn, 2 pcs yam"],
         ["Prawn Tempura (4 pcs)","$4.95"],["Prawn Tempura (8 pcs)","$7.95"],
         ["Yam Tempura","$5.95"],["Vegetable Tempura (8 pcs)","$8.95"]
       ] },
-    { name: "Salads", img: "./img2/soy-detail.jpg",
+    { name: "Salads", img: "./img2/fallback.jpg",
       note: "",
       items: [
         ["Vegetable Sunomono Salad","$3.95"],["Seaweed Salad","$6.95"],
         ["Grilled Chicken Salad","$8.95"],["Fresh Tuna Salad","$8.95"],
         ["Calamari Salad","$8.95","Seasoned squid with vegetables"]
       ] },
-    { name: "Soups & Sides", img: "./img2/udon.jpg",
+    { name: "Soups & Sides", img: "./img2/r-udon.jpg",
       note: "",
       items: [
         ["Miso Soup","$1.75"],["Spicy Miso Soup","$1.95"],["Rice","$2.50"],
         ["Brown Rice","$2.50"],["Side Sauce","$1.00"]
       ] },
-    { name: "Lunch Teriyaki", img: "./img2/board.jpg",
+    { name: "Lunch Teriyaki", img: "./img2/r-teriyaki.jpg",
       note: "Mon to Fri, 10am to 2pm. With rice & miso soup.",
       items: [
         ["Chicken / Beef / Tofu Teriyaki","$9.95"],
         ["BBQ Short Rib (Korean Style)","$13.95"]
       ] },
-    { name: "Donburi / Rice Bowls", img: "./img2/board.jpg",
+    { name: "Donburi / Rice Bowls", img: "./img2/r-teriyaki.jpg",
       note: "On sushi rice.",
       items: [
         ["Tuna Don","$11.95","Tuna sashimi on sushi rice"],["Spicy Tuna Don","$12.95"],
@@ -121,20 +121,20 @@
         ["Chirashi Don","$17.95","Assorted sashimi on sushi rice"],
         ["Half Chirashi Don","$11.95"],["Unagi Don","$15.95","Fresh barbecued eel on sushi rice"]
       ] },
-    { name: "Noodles", img: "./img2/udon.jpg",
+    { name: "Noodles", img: "./img2/r-udon.jpg",
       note: "Mon to Fri, 10am to 4pm.",
       items: [
         ["Chicken / Beef Udon","$9.50"],["Tempura Udon","$11.95"],
         ["Chicken / Beef / Vegetable Yaki Soba","$9.50"],
         ["Chicken / Beef / Vegetable Yaki Udon","$9.50"]
       ] },
-    { name: "Lunch Sets", img: "./img2/board.jpg",
+    { name: "Lunch Sets", img: "./img2/r-combo.jpg",
       note: "",
       items: [
         ["Lunch A","$13.95"],["Lunch B","$19.95"],["Lunch C","$19.95"],
         ["Lunch D","$11.95"],["Lunch S","$11.95"],["Chef's Choice","$19.50"]
       ] },
-    { name: "Combos & Party Trays", img: "./img2/board.jpg",
+    { name: "Combos & Party Trays", img: "./img2/r-combo.jpg",
       note: "Party trays serve 2 to 4.",
       items: [
         ["Tuna & Wild Salmon Combo","$11.95"],["Favourite Roll Combo","$11.95"],
